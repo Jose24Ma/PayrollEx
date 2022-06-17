@@ -17,6 +17,8 @@ namespace PayrollEx
         private double AuxTranspor;
         private double Health;
         private double Pension;
+        private double Overtime;
+        private double OrdinaryHour;
 
         public string FirstName1 { get => FirstName; set => FirstName = value; }
         public string LastName1 { get => LastName; set => LastName = value; }
@@ -27,5 +29,7 @@ namespace PayrollEx
         public double AuxTranspor1 { get => AuxTranspor; set => AuxTranspor = value; }
         public double Health1 { get => Health; set => Health = value; }
         public double Pension1 { get => Pension; set => Pension = value; }
+        public double Overtime1 { get => Overtime; set => Overtime = value; }
+        public double OrdinaryHour1 { get => OrdinaryHour; set => OrdinaryHour = value; }
     }
 }

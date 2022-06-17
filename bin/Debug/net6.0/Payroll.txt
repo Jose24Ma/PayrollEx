@@ -1,0 +1,9 @@
+Name Employee: Jose Manjarrez
+Document: C.C 1007423449
+Salary Base: $2000000
+Worked Days/Month: 30
+Overtime: 25000 Hours
+The total earned by the employee is: $2025000
+
+--------------------New Employee------------------------
+

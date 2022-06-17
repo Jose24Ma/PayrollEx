@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PayrollEx</id>
+    <version>1.0.0</version>
+    <authors>PayrollEx</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="DocumentFormat.OpenXml" version="2.16.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\MI\source\repos\PayrollEx\bin\Debug\net6.0\PayrollEx.runtimeconfig.json" target="lib\net6.0\PayrollEx.runtimeconfig.json" />
+    <file src="C:\Users\MI\source\repos\PayrollEx\bin\Debug\net6.0\PayrollEx.dll" target="lib\net6.0\PayrollEx.dll" />
+  </files>
+</package>

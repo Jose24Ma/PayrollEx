@@ -13,3 +13,6 @@ C:\Users\MI\source\repos\PayrollEx\obj\Debug\net6.0\refint\PayrollEx.dll
 C:\Users\MI\source\repos\PayrollEx\obj\Debug\net6.0\PayrollEx.pdb
 C:\Users\MI\source\repos\PayrollEx\obj\Debug\net6.0\PayrollEx.genruntimeconfig.cache
 C:\Users\MI\source\repos\PayrollEx\obj\Debug\net6.0\ref\PayrollEx.dll
+C:\Users\MI\source\repos\PayrollEx\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\MI\source\repos\PayrollEx\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\MI\source\repos\PayrollEx\obj\Debug\net6.0\PayrollEx.csproj.CopyComplete

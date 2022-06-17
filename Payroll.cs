@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using System.Diagnostics;
+using DocumentFormat.OpenXml.Vml;
 
 namespace PayrollEx
 {
@@ -13,14 +13,13 @@ namespace PayrollEx
         public static void Main(string[] args)
         {
 
-            StreamWriter fichero;
-            fichero = File.CreateText("prueba.txt")
+            
 
-
-                Menu menu = new Menu();
-                fichero.WriteLine("Welcome the program the payroll");
-                fichero.WriteLine("1. Si desea agregar otro empleado");
-                fichero.WriteLine("2. Si desea salir del programa");
+            Menu menu = new Menu();
+  
+                Console.WriteLine("Welcome the program the payroll");
+                Console.WriteLine("1. If you want to add another employee");
+                Console.WriteLine("2. If you want to exit the program");
 
                 int Opcion = int.Parse(Console.ReadLine());
 
@@ -32,25 +31,25 @@ namespace PayrollEx
                         {
                             menu.CalculatePayroll();
                             menu.Print();
-                            fichero.WriteLine("1. Si desea agregar otro empleado");
-                            fichero.WriteLine("2. Si desea salir del programa");
+                            Console.WriteLine("1. If you want to add another employee");
+                            Console.WriteLine("2. If you want to exit the program");
                             Opc1 = int.Parse(Console.ReadLine());
-                            fichero.WriteLine("Dato Invalido");
+                            Console.WriteLine("Invalid Data");
                             Console.Clear();
 
                         } while (Opc1 != 2);
                         break;
 
                     case 2:
-                        fichero.WriteLine("Saliendo del programa");
+                        Console.WriteLine("Exit the program");
                         break;
 
                     default:
-                        fichero.WriteLine("Opcion no valida / Ingrese una correcta");
+                        Console.WriteLine("Invalid Opcion/ Enter a Correct");
                         break;
+
+                    
                 }
-            fichero.Close();
-            
             
         }
     }
