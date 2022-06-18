@@ -12,10 +12,7 @@ namespace PayrollEx
     {
         public static void Main(string[] args)
         {
-
-            
-
-            Menu menu = new Menu();
+                Menu menu = new Menu();
   
                 Console.WriteLine("Welcome the program the payroll");
                 Console.WriteLine("1. If you want to add another employee");
@@ -34,7 +31,6 @@ namespace PayrollEx
                             Console.WriteLine("1. If you want to add another employee");
                             Console.WriteLine("2. If you want to exit the program");
                             Opc1 = int.Parse(Console.ReadLine());
-                            Console.WriteLine("Invalid Data");
                             Console.Clear();
 
                         } while (Opc1 != 2);

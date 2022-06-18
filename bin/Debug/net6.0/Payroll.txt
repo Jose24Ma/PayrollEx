@@ -1,9 +1,20 @@
 Name Employee: Jose Manjarrez
 Document: C.C 1007423449
-Salary Base: $2000000
+Salary Base: $200000
 Worked Days/Month: 30
-Overtime: 25000 Hours
-The total earned by the employee is: $2025000
+Overtime: 2 Hours
+The total earned by the employee is: $320172
 
+Record time: 18/06/2022 03:36:49 p.m.
+--------------------New Employee------------------------
+
+Name Employee: Manuelle Muñoz
+Document: C.C 1004789562
+Salary Base: $900000
+Worked Days/Month: 30
+Overtime: No realizo overtime
+The total earned by the employee is: $1020172
+
+Record time: 18/06/2022 03:37:14 p.m.
 --------------------New Employee------------------------
 
